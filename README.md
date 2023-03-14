@@ -17,7 +17,7 @@ Some of the things we will be looking for in your development
 
 ## Task at hand
 
-You are to build a car inventory SaaS solution in C# (.NET 6 or above). The car inventory solution allows users/businesses who manage a fleet of vehicles to be able to securely store and get details about their vehicles. This software is used for many use cases but one common use case is car rental companies which owns numerous cars. They can easily see which cars are available and which ones have been taken out of their garage.
+You are to build a car inventory SaaS solution in C# (.NET 6 or above). Front end code can be any framework of choice. The car inventory solution allows users/businesses who manage a fleet of vehicles to be able to securely store and get details about their vehicles. This software is used for many use cases but one common use case is car rental companies which owns numerous cars. They can easily see which cars are available and which ones have been taken out of their garage.
 
 Some of the requirements of this software
 
@@ -29,14 +29,19 @@ Some of the requirements of this software
 6. User interface should have the ability to filter the vehicles by status
 7. Current Value of the vehicle should depreciate by 5% each year from when it was made. I.e. if it was made in 2022, and the cost was 100,000, in 2023, the current value should be $95,000
 8. We should have the ability to log in as different users/businesses on the solution and see their own fleet
+9. Businesses want the ability to be able to access their inventory programatically so they would need an API to do the above tasks besides our Standard interface
 
-Anything not mentioned above, or if you are unsure, you can make assumptions and note them down in the readme.
+For simplicity, you can choose to hardcode authentication and provide some credentials for testing.
 
-Things you must provide
+The solution should persist the inventory data somewhere. You are free to make the decision as to where and how it will be stored. Which ever you choose, try to make it easy for the examiner to be able to run it locally.
+
+## Things you must provide
 
 1. Your working solution in a github link
 2. Readme instructions on how to build and run the code and see it in action
 3. If you have deployed it somewhere, details or scripts on how you did the deployment
+
+Anything not mentioned above, or if you are unsure, you can make assumptions and note them down in the readme.
 
 ### car specs
 
